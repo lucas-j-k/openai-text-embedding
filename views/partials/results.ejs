@@ -1,0 +1,14 @@
+<div id="results">
+  <ul>
+    <% results.forEach(function(result) { %>
+    <li class="card mb-2">
+      <header class="card-header">
+        <p class="card-header-title"><%= result.name %></p>
+      </header>
+      <div class="card-content">
+        <p><%= result.description %></p>
+      </div>
+    </li>
+    <% }); %>
+  </ul>
+</div>
